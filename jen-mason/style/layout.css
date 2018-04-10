@@ -1,6 +1,50 @@
-@media only screen and (min-width: 411px) {
+@media only screen and (min-width: 640px) {
 
 .menu{
     display: none;
     }
+}
+
+ * {
+    border: black solid 2px;
+}
+
+header {
+    overflow: hidden;
+}
+
+.site-header {
+    background-color: #FDF4A7;
+}
+
+.byline {
+    color: #BCBCBB;
+}
+
+.heading-group-1 h1, h2 {
+    width: 100px;
+    float: left;
+    display: inline;
+}
+.heading-group-1 {
+    width: 100px;
+    float: left;
+    display: inline;
+}
+
+.main-nav {
+    width: 20%;
+    float: right;
+    display: inline;
+}
+
+ul {
+    display: none;
+}
+.icon-menu {
+    float: left;
+}
+
+.pull-right {
+    width: 90%;
 }
